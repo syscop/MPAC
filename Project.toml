@@ -1,0 +1,13 @@
+name = "MPAC"
+uuid = "f355a931-d197-47e8-af2d-7cdeb60851ee"
+authors = ["Per Rutquist <per.rutquist@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
